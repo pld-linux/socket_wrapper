@@ -1,12 +1,12 @@
 Summary:	Socket wrapper library
 Summary(pl.UTF-8):	Biblioteka obudowująca dla gniazd
 Name:		socket_wrapper
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	BSD
 Group:		Libraries
 Source0:	http://www.samba.org/ftp/cwrap/%{name}-%{version}.tar.gz
-# Source0-md5:	298e4b2d6cd88b9dbf3a4ac6566e8cd0
+# Source0-md5:	70e49650406c4747e0524b8e7dd0117e
 URL:		http://cwrap.org/socket_wrapper.html
 BuildRequires:	cmake >= 2.8.5
 BuildRequires:	rpmbuild(macros) >= 1.605
@@ -53,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %ghost %{_libdir}/libsocket_wrapper.so.0
 %attr(755,root,root) %{_libdir}/libsocket_wrapper.so
 %{_pkgconfigdir}/socket_wrapper.pc
-%{_libdir}/cmake/socket_wrapper-config*.cmake
+%{_libdir}/cmake/socket_wrapper
