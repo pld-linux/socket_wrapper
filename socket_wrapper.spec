@@ -2,7 +2,7 @@ Summary:	Socket wrapper library
 Summary(pl.UTF-8):	Biblioteka obudowująca dla gniazd
 Name:		socket_wrapper
 Version:	1.3.3
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries
 Source0:	https://download.samba.org/pub/cwrap/%{name}-%{version}.tar.gz
